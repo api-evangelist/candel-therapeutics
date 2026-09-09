@@ -1,0 +1,75 @@
+generated: '2026-09-09'
+method: probed
+source: live HTTPS probes of every host the record knows (candeltx.com, www.candeltx.com, ir.candeltx.com)
+note: >-
+  Every named /.well-known/ path was probed on every host Candel Therapeutics controls and
+  none returned a document. candeltx.com is a HubSpot-hosted marketing site that answers a
+  real HTTP 404 (with the site 404 page) for all of them. ir.candeltx.com is served behind an
+  Akamai edge policy that answers 403 "Access Denied" to every non-browser request, including
+  the site root, so nothing there could be read; that is an edge policy against our crawler,
+  not evidence the documents are absent. NO WellKnown or SecurityTxt pointer is emitted in
+  apis.yml, because this file records an absence, not a served surface.
+excluded_hosts:
+- host: advantagene.com
+  reason: >-
+    The company's former domain (Candel Therapeutics was founded as Advantagene) is no longer
+    under company control. It resolves to Cloudflare and serves an unrelated Indonesian
+    gambling site ("OLXTOTO"), answering HTTP 200 with the same 451KB HTML body for every path
+    including /.well-known/agent-card.json and /.well-known/api-catalog. It is a catch-all
+    200 responder and a textbook false positive; nothing fetched from it was recorded and it
+    must never be probed as a Candel host again.
+  observed_status: 200
+  observed_body: unrelated third-party HTML on every path
+hosts:
+- host: candeltx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.candeltx.com
+  documents:
+  - path: /
+    status: 200
+    file: null
+    note: redirects to https://candeltx.com/ — same origin, same 404 behaviour on every well-known path
+- host: ir.candeltx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 403
+    file: null
+  - path: /.well-known/agent.json
+    status: 403
+    file: null

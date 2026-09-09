@@ -1,0 +1,60 @@
+# Candel Therapeutics
+
+> Candel Therapeutics, Inc. (Nasdaq: CADL) is a clinical-stage biopharmaceutical company in
+> Needham, Massachusetts developing off-the-shelf multimodal viral immunotherapies for solid
+> tumors. Founded as Advantagene. Candel is a therapeutics developer, not a software vendor.
+
+## No API surface
+
+Candel Therapeutics publishes **no public API**. As of 2026-09-09 there is no developer
+portal, no API reference, no OpenAPI/AsyncAPI/GraphQL/Protobuf/WSDL contract, no SDK in any
+public package registry, no MCP server, no A2A agent card, and no `/.well-known/` document on
+any host the company controls. Every contract-discovery path probed on candeltx.com returned
+a real HTTP 404. Do not attempt to call an API here; there is nothing to call.
+
+The company's only credentialed surface is a clinical-trial **investigator portal**, reached
+through a login on its HubSpot-hosted marketing site. It is for named clinical-trial
+investigators, not for programmatic integration.
+
+Note: `advantagene.com`, the company's former domain, is no longer under company control and
+now serves unrelated third-party content. Ignore anything found there.
+
+## Company
+
+- [Candel Therapeutics](https://candeltx.com/): Company home.
+- [About](https://candeltx.com/about): Company overview and history.
+- [Science](https://candeltx.com/science): The two viral immunotherapy platforms.
+- [Pipeline](https://candeltx.com/pipeline): Clinical programs and development stage.
+- [Leadership](https://candeltx.com/leadership): Executive team and board.
+- [Media](https://candeltx.com/media): Press releases and publications.
+- [Careers](https://candeltx.com/careers): Open roles.
+
+## Programs
+
+- aglatimagene besadenovec (CAN-2409): replication-defective adenovirus delivered
+  intratumorally with a prodrug to induce immunogenic tumor cell death.
+- linoserpaturev (CAN-3110): replication-competent oncolytic herpes simplex virus.
+
+## Clinical trials
+
+- [For patients](https://candeltx.com/patients): Active trials and patient information.
+- [For providers](https://candeltx.com/providers): Clinical trial information for clinicians.
+- [Investigator login](https://candeltx.com/investigator-login): Credentialed investigator portal.
+- [Investigator registration](https://candeltx.com/investigator-portal-registration)
+
+## Contact and legal
+
+- [Contact](https://candeltx.com/contact): info@candeltx.com
+- [Privacy policy](https://candeltx.com/privacy-policy)
+- [Investor relations](https://ir.candeltx.com/): Nasdaq: CADL. Served behind an edge policy
+  that refuses non-browser clients.
+
+## Optional
+
+- [Blog](https://candeltx.com/blog): Company blog. An RSS feed is served at
+  https://candeltx.com/blog/rss.xml but currently carries no items.
+
+---
+generated: 2026-09-09
+method: generated
+source: apis.yml + live probes of candeltx.com (API Evangelist enrichment pipeline; not published by Candel Therapeutics)

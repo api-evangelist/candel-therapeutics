@@ -1,0 +1,11 @@
+generated: '2026-09-09'
+method: searched
+source: https://candeltx.com/
+plan_count: 0
+plans: []
+note: >-
+  Not applicable. Candel Therapeutics is a clinical-stage biopharmaceutical company with no
+  API product, no developer program and nothing sold through self-service. There is no
+  pricing page and no "contact sales" API gate; the site carries no commercial plan surface
+  of any kind. Recorded as an honest zero rather than omitted. No Pricing or Plans pointer is
+  wired in apis.yml because the company publishes neither.

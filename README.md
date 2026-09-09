@@ -64,5 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Candel Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Candel Therapeutics, Inc. (Nasdaq: CADL) is a clinical-stage biopharmaceutical company in
+Needham, Massachusetts developing off-the-shelf multimodal viral immunotherapies for solid
+tumors, built on two engineered viral platforms: aglatimagene besadenovec (CAN-2409) and
+linoserpaturev (CAN-3110). The company was founded as Advantagene.
+
+**No API surface.** As of 2026-09-09 Candel publishes no developer portal, API reference,
+OpenAPI/AsyncAPI/GraphQL/Protobuf/WSDL contract, SDK, MCP server, A2A agent card or
+`/.well-known/` document on any host it controls. Every contract-discovery path probed on
+candeltx.com returned a real HTTP 404. Its only credentialed surface is a clinical-trial
+investigator portal. This profile records that honest absence, plus the domain-security
+posture of candeltx.com.
+
+Note: `advantagene.com`, the company's former domain, is no longer under company control and
+now serves unrelated third-party content. It is excluded from this profile.
+
+- https://candeltx.com/
+- https://ir.candeltx.com/
 - https://forgeglobal.com/advantagene_stock/

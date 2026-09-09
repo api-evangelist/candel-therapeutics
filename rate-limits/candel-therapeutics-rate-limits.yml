@@ -1,0 +1,10 @@
+generated: '2026-09-09'
+method: searched
+source: https://candeltx.com/
+limit_count: 0
+rate_limits: []
+note: >-
+  Not applicable. Candel Therapeutics publishes no API, so there are no documented rate
+  limits, no rate-limit response headers and no exhaustion status code to record. Recorded as
+  an honest zero rather than omitted. No RateLimits pointer is wired in apis.yml, because
+  emitting one would credit an agent-readiness signal the company does not have.
