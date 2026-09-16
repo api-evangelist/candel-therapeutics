@@ -1,0 +1,21 @@
+{
+  "repo": "candel-therapeutics",
+  "feeds": [
+    {
+      "source": "https://candeltx.com/blog",
+      "feed_url": "https://candeltx.com/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://candeltx.com/about",
+      "feed_url": "https://candeltx.com/about",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-13T13:00:00Z"
+}
