@@ -64,21 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Candel Therapeutics, Inc. (Nasdaq: CADL) is a clinical-stage biopharmaceutical company in
-Needham, Massachusetts developing off-the-shelf multimodal viral immunotherapies for solid
-tumors, built on two engineered viral platforms: aglatimagene besadenovec (CAN-2409) and
-linoserpaturev (CAN-3110). The company was founded as Advantagene.
+Candel Therapeutics, Inc. (Nasdaq: CADL) is a clinical-stage biopharmaceutical company headquartered in Needham, Massachusetts, developing off-the-shelf multimodal viral immunotherapies for solid tumors. Founded as Advantagene, the company advances two engineered viral platforms: aglatimagene besadenovec (CAN-2409), a replication-defective adenovirus delivered intratumorally alongside a prodrug to trigger immunogenic cell death, and linoserpaturev (CAN-3110), a replication-competent oncolytic herpes simplex virus. Its clinical programs span prostate cancer, non-small cell lung cancer, pancreatic cancer and recurrent high-grade glioma. Candel is a therapeutics developer, not a software vendor: it operates no developer program, publishes no public API, SDK or machine-readable specification, and its only credentialed surface is a clinical-trial investigator portal.
 
-**No API surface.** As of 2026-09-09 Candel publishes no developer portal, API reference,
-OpenAPI/AsyncAPI/GraphQL/Protobuf/WSDL contract, SDK, MCP server, A2A agent card or
-`/.well-known/` document on any host it controls. Every contract-discovery path probed on
-candeltx.com returned a real HTTP 404. Its only credentialed surface is a clinical-trial
-investigator portal. This profile records that honest absence, plus the domain-security
-posture of candeltx.com.
+**Areas:** Company · Biotechnology · Pharmaceuticals · Immunotherapy · Oncology · Life Sciences · Clinical Trials · Healthcare
 
-Note: `advantagene.com`, the company's former domain, is no longer under company control and
-now serves unrelated third-party content. It is excluded from this profile.
+## Candel Therapeutics on APIs.io
 
-- https://candeltx.com/
-- https://ir.candeltx.com/
-- https://forgeglobal.com/advantagene_stock/
+Everything profiled for Candel Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/candel-therapeutics/](https://apis.io/providers/candel-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Candel Therapeutics Domain Security](https://apis.io/security/candel-therapeutics/candel-therapeutics-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Candel Therapeutics Plans Pricing](https://apis.io/plans/candel-therapeutics/candel-therapeutics-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Candel Therapeutics Rate Limits](https://apis.io/rate-limits/candel-therapeutics/candel-therapeutics-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://candeltx.com/)
+- [Support](https://candeltx.com/contact)
+- [Blog](https://candeltx.com/blog)
+- [Privacy policy](https://candeltx.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 8.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/candel-therapeutics/](https://apis.io/providers/candel-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Candel Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/candel-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
